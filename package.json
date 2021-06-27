@@ -1,0 +1,33 @@
+{
+  "name": "ray-db",
+  "version": "0.0.2",
+  "description": "A database software for ray-userland. Open-Source!",
+  "main": "ray-db.js",
+  "scripts": {
+    "test": "node tests/mainTest.js",
+    "start": "node ."
+  },
+  "author": "Ray Voice, Anna Voice",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/ray-db.git"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "ray-userland",
+    "ray-db",
+    "tables"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ray6464/ray-db/issues"
+  },
+  "homepage": "https://github.com/Ray6464/ray-db#readme",
+  "dependencies": {
+    "ray-fs": "^1.5.0",
+    "ray-hash": "^0.1.1",
+    "ray-serve": "^2.2.1",
+    "ray-taken": "^2.0.0"
+  }
+}
